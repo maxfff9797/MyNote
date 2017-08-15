@@ -1,13 +1,13 @@
 Vlantin str
 16th str
 
-#Innovation
+# Innovation
 Innovation is an iterative process of invention and the resulting total distribution of outcomes. 
-##Measure Innovation
-·Shot at goal
-·Average score
-·Maximum scores
+## Measure Innovation
+* Shot at goal
+* Average score
+* Maximum scores
 
-#Startup
+# Startup
 
-#Join starup
+# Join starup

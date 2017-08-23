@@ -1,15 +1,11 @@
 # Evaluation of CNN
-刚刚，卓龙已经介绍了CNN（Convolutional Neural Network）,接下来，我会介绍三个CNN的重要应用，他们也在不同程度上推动了现代机器学习的发展。
+My fellow ,Zhuo long ,has introduce CNN to you ,now I’m going to talk about 3 important network ,based on CNN
 ## AlexNet
-* 在ILSVRC2012年时，出现了8层的网络——AlexNet，降低了10%的错误率。
-* 2012年，Alex 提出了深度卷积神经网络模型AlexNet，AlexNet以显著的优势赢得了竞争激烈的ILSVRC2012比赛。
-* AlexNet使用了GPU进行运算加速，作者开源了他们在GPU上训练卷积神经网络的CUDA代码。
-* AlexNet可以说是神经网络在低谷期后的第一次发声，确立了深度学习（深度卷积网络）在计算机视觉的统治地位，同时也推动了深度学习在语音识别、自然语言处理、强化学习等领域的拓展。
-* 把CNN的基本原理应用到了很深很宽的网络中。
+* First,The 8-layers Net---AlexNet,It Came out from ILSVRC（ImageNet的图像识别竞赛） 2012 and win the champion,because,it reduce the error rate to 16.4%,Which is a huge progress.
+* It is very important because it proved that CNN can be use in a deep,wide Network and is very powerful in Computer Vision. it also advance the usage of CNN in Speech Recognition,Nature Language process and many other field.It also use GPU to make Calculate faster,which has become popular today.
 ## ResNet
-* Resnet在ILSVRC 和COCO 2015上的表现在五个主要任务轨迹中都获得了第一名的成绩
-* 一个能够用来训练“非常深”的深度网络又十分简洁的框架
-* ILSVRC2015，我们的ResNet将层级提到了152层，将错误率降到了3.57。
-* 深度残差网络(ResNets)具有较低的训练误差和测试误差。
-* 与VGG-16/19相比，该模型具有较低的时间复杂度。
+* Next one is ResNet,ResNet won the first place in both ILSVRC 2015 and COCO 2015（也是一个图像识别比赛）,In ILSVRC 2015,the MSRA team use a 152-layers ResNet and reduce the error rate to 3.57%.It is a simple and clear framework to train a very deep network.it have lower training error , lower test error and also ,lower time complexity（时间复杂度）.
+* This success advance the Revolution of Network Depth because if you just simple stacking layers ,you will get higher training error and test error ,but in this solution,you can actually benefit from the increased number of the layer. 
+
 ## Recurrent Neural Networks
+* Now,We had Introduced two Network ,their main tesk is Computer Vision .Last one is Long Short-Term Memory Networks . It is based on RNN（递归神经网络）,but it’s better than RNN,Because RNN have gradient Vanishing/Exploding problem ,but LSTM fixed it by using Memory Cell instead of normal RNN cell .So ,LSTM make RNN more practical .It has being used on many tesks ,Such as Handwriting recognition ,Semantic analysis and etc.It become popular because you can get a very good result by a 2 or 3-layers LSTM.

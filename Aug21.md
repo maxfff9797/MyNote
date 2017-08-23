@@ -4,5 +4,5 @@
 * Model Build and Evaluation
 * Model Deployment
 * Apply knowledge in Decision Process
-
+    
 >www.slideshare.net/katjuane

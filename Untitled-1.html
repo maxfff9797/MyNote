@@ -1,0 +1,209 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Journey in CA</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style_t.css">
+    <link rel="stylesheet" href="css/style_j.css">
+    <link rel="icon" href="icon/favicon.ico">
+
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body style="color:white; font-family: 'Segoe UI Light';margin: 0 0 20px 0;padding: 0">
+
+<!--header-->
+<header>
+    <ul class="nav nav-pills" style="position: absolute;left:61.5%">
+        <li class="nav-item">
+            <a class="nav-cont" href="#">Time Line</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-cont" data-toggle="modal" data-target="#signInModal" href="#">Sign In</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-cont" href="?logout=1" id="signOut">Sign Out</a>
+        </li>
+    </ul>
+    <br>
+    <!--    <h1 style="font-family:'Segoe UI Light'">Journey in California - Day <span id="pid">1</span></h1>-->
+    <!--    <br>    -->
+    <h1 style="font-family:'Segoe UI Light'">Journey in California</h1>
+    <br>
+    <h2 style="margin: 20px 0 60px 0;">[ From SZU to ITU ]</h2>
+<!--    <audio id="music" src="audio/music.mp3" loop="loop"></audio>-->
+<!--    <a href="javascript:playPause();">-->
+<!--        <img id="music_btn" src="img/music_pause.png" width="40" height="40" border="0">-->
+<!--    </a>-->
+    <button class="start btn btn-default"> Start</button>
+    <p id="welcome">Welcome, <span id="usrname">FENGFANFAN</span> !</p>
+</header>
+
+<!--timeline-->
+<section class="timeline">
+    <ul>
+        <li>
+            <div>
+                <time>2017.8.4</time>
+                <span>Departure! We are really going to US!</span>
+                <img src="img/合影/4_cover.jpg" alt="photo" class="image"></br>
+            </div>
+        </li>
+        <li>
+            <div>
+                <time>2017.8.5</time>
+                <span>San Fransico Tour</span>
+                <img src="img/合影/5_cover.jpg" alt="photo" class="image"></br>
+            </div>
+        </li>
+        <li>
+            <div>
+                <time>2017.8.6</time>
+                <span>17-Mile Drive & Gilory Outlets Shopping!</span>
+                <img src="img/合影/6_cover.jpg" alt="photo" class="image"></br>
+            </div>
+        </li>
+        <li>
+            <div>
+                <time>2017.8.7</time>
+                <span>Welcome to ITU!</span>
+                <img src="img/合影/7_cover.JPG" alt="photo" class="image"></br>
+            </div>
+        </li>
+        <li>
+            <div>
+                <time>2017.8.10</time>
+                <span>Visit Computer History Museum, Google & Stanford!</span>
+                <img src="img/合影/10_cover.jpg" alt="photo" class="image"></br>
+            </div>
+        </li>
+        <li>
+            <div>
+                <time>2017.8.12</time>
+                <span>SJSU & San Jose City Hall & Westfield!</span>
+                <img src="img/合影/12_cover.JPG" class="image"></br>
+            </div>
+        </li>
+        <li>
+            <div>
+                <time>2017.8.13</time>
+                <span>Visit Berkeley U & Livermore Outlets!</span>
+                <img src="img/合影/13_cover.jpg" alt="photo" class="image"></br>
+            </div>
+        </li>
+        <li>
+            <div>
+                <time>2017.8.15</time>
+                <span>Happy Birthday to our friends born in August~</span>
+                <img src="img/合影/15_cover.JPG" alt="photo" class="image"></br>
+            </div>
+        </li>
+        <li>
+            <div>
+                <time>2017.8.19</time>
+                <span>Golden Gate Park & Japan Town</span>
+                <img src="img/合影/19_cover.JPG" alt="photo" class="image"></br>
+            </div>
+        </li>
+        <li>
+            <div>
+                <time>2017.8.20</time>
+                <span>Free Time~</span>
+            </div>
+        </li>
+        <li>
+            <div>
+                <time>2017.8.21</time>
+                <span>eclipse🌞</span>
+                <img src="img/合影/21_cover.png" alt="photo" class="image"></br>
+            </div>
+        <li>
+            <div>
+                <time>2017.8.24</time>
+                <span>goodbye US👋</span>
+            </div>
+        </li>
+        <div style="height:150px;width:100%;"></div>
+    </ul>
+</section>
+
+<!--footer-->
+<div style="text-align: center">
+    <a href="javascript:scroll(0,0)"><img src="icon/RTP.png" style="height: 20px;width: 30px;"></a>
+</div>
+<footer class="foot">
+    Copyright© 2017 </br>
+    Developed by: <u>SZU CSSE International Class 2015</u></br>
+    Bella Zhang, Kevin Lin, Ish Yang, Jonathan Yang<br>
+</footer>
+
+<!--Modal Sign In-->
+<div class="modal fade" id="signInModal" tabindex="-1" role="dialog" aria-labelledby="signInModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" style="top:20%">
+        <form method="post" class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="signInModalLabel" style="color:#323232;">
+                    Sign In
+                </h4>
+            </div>
+            <div class="modal-body">
+                <label class="signInTag" style="color:#323232;"><i class="icon-tag"></i> Username :<br>
+                    <input class="signInUp" id="signInUsr" type="text" name="name" style="color:#323232;">
+                </label>
+                <br>
+                <label class="signInTag" style="color:#323232;"><i class="icon-tag"></i> Password :<br>
+                    <input class="signInUp" id="signInPwd" type="password" name="password" style="color:#323232;">
+                </label>
+            </div>
+            <div class="modal-footer">
+                <button id="signIn" type="button" class="btn btn-default" style="margin: 0;font-size: 20px"
+                        value="Sign in" data-dismiss="modal">
+                    Sign In
+                </button>
+                <button type="button" class="btn btn-primary" style="margin: 0;font-size: 20px" data-dismiss="modal">
+                    Cancel
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+<script src="js/timeline.js"></script>
+<script src="js/signin.js"></script>
+<!--<script>-->
+<!--    function playPause() {-->
+<!--        var music = document.getElementById('music');-->
+<!--        var music_btn = document.getElementById('music_btn');-->
+<!--        if (music.paused) {-->
+<!--            music.play();-->
+<!--            music_btn.src = 'img/music_play.png';-->
+<!--        }-->
+<!--        else {-->
+<!--            music.pause();-->
+<!--            music_btn.src = 'img/music_pause.png';-->
+<!--        }-->
+<!--    }-->
+<!--    $(function () {-->
+<!--        $('#colour-variations ul').styleSwitcher({-->
+<!--            defaultThemeId: 'theme-switch',-->
+<!--            hasPreview: false,-->
+<!--            cookie: {-->
+<!--                expires: 30,-->
+<!--                isManagingLoad: true-->
+<!--            }-->
+<!--        });-->
+<!--        $('.option-toggle').click(function () {-->
+<!--            $('#colour-variations').toggleClass('sleep');-->
+<!--        });-->
+<!--    });-->
+<!--</script>-->
+
+</body>
+</html>
